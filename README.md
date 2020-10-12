@@ -1,5 +1,5 @@
 # puppeteer-har
-[![npm version][1]][2] 
+[![npm version][1]][2]
 
 Generate HAR file with [puppeteer](https://github.com/GoogleChrome/puppeteer).
 
@@ -13,7 +13,7 @@ npm install puppeteer-har
 
 ```javascript
 const puppeteer = require('puppeteer');
-const PuppeteerHar = require('puppeteer-har');
+const PuppeteerHar = require('@authless/puppeteer-har');
 
 (async () => {
   const browser = await puppeteer.launch();
@@ -40,8 +40,8 @@ const PuppeteerHar = require('puppeteer-har');
 ### har.stop()
 - returns: <[Promise]<?[Object]>> If path is not set in `har.start` Promise will return object with HAR.
 
-[1]: https://img.shields.io/npm/v/puppeteer-har.svg?style=flat-square
-[2]: https://npmjs.org/package/puppeteer-har
+[1]: https://img.shields.io/npm/v/@authless/puppeteer-har.svg?style=flat-square
+[2]: https://npmjs.org/package/@authless/puppeteer-har
 [Object]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object "Object"
 [Page]: https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#class-page
 [Promise]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise "Promise"
