@@ -1,6 +1,7 @@
 {
-  "name": "puppeteer-har",
+  "name": "@authless/puppeteer-har",
   "version": "1.1.2",
+  "public": true,
   "description": "Generate HAR file with Puppeteer",
   "main": "index.js",
   "directories": {
